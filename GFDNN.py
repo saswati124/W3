@@ -16,8 +16,8 @@ tf.disable_v2_behavior()
 tf.reset_default_graph()
 
 ppi_adj = np.loadtxt("Example_PPIEdgelist_adjacency.csv", dtype=int, delimiter=",") #adjacency matrix of PPI network of target genes
-TOM_adj = np.loadtxt("Example_GCN_adjacency.csv", dtype=int, delimiter=",") #adjacency matrix of TOM GCN network of target genes
-expression = np.loadtxt("Example_targetGeneExpr.csv", dtype=float, delimiter=",")#expression is expression matrix of target genes
+TOM_adj = np.loadtxt("Example_GCN_adjacency.csv", dtype=int, delimiter=",") #adjacency matrix of GCN network of target genes
+expression = np.loadtxt("Example_targetGeneExpr.csv", dtype=float, delimiter=",")#expression matrix of target genes
 
 partition=np.logical_and(ppi_adj,TOM_adj)
 
