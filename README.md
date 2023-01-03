@@ -16,7 +16,8 @@ Tensorflow https://www.tensorflow.org/install/
 
 * Expression data matrix (Example_targetGeneExpr.csv): a csv file with m rows and p+1 columns. m is the number of samples and p is the number of features (continuous variables, such as gene expression values). The additional column at last is the 0/1 binary outcome variable vector. This example data set contain gene expression values of 800 genes for 100 samples (m=100 and p=800).
 * Gene network/ Feature graph (Example_PPIEdgelist_adjacency.csv): A csv file with p rows and p colunms, which is the corresponding adjacency matrix of the PPI network of genes.
-* Gene network/ Feature graph (Example_GCN_adjacency.csv): A csv file with p rows and p colunms, which is the corresponding adjacency matrix of the gene co-expression network of genes.
+* Gene network/ Feature graph (Example_GCN_adjacency.csv): A csv file with p rows and p colunms, which is the corresponding adjacency matrix of the gene co-expression network of genes. 
+
 NOTE: The input file contain no headers.
 
 ## RUN GFDNN
